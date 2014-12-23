@@ -7,3 +7,4 @@ export M2_HOME=/usr/share/apache-maven-3.2.3
 export MAVEN_OPTS="-Xss4m -Xms256m -Xmx1024m"
 #export MAVEN_OPTS="-Xms256m -Xmx1024m -XX:MaxPermSize=512m"
 
+export LC_ALL=C
