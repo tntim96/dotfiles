@@ -17,4 +17,5 @@ alias sgb='cd ~/dev/SG/SG-svn/build'
 alias sggb='cd ~/dev/SG/SG-git/build'
 alias astart='sudo ~/dev/SG/apache2/bin/apachectl start'
 alias astop='sudo ~/dev/SG/apache2/bin/apachectl stop'
-
+alias bloff='echo 0 | sudo tee /sys/devices/platform/sony-laptop/kbd_backlight'
+alias blon='echo 1 | sudo tee /sys/devices/platform/sony-laptop/kbd_backlight'
