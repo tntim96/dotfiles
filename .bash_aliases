@@ -9,7 +9,7 @@ alias jmon='cd ~/dev/JMonitaur'
 alias up='cd ~/dev/update-projects;./update.sh'
 alias j7='JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64;export PATH=$JAVA_HOME/bin:$PATH'
 
-alias ij='nohup /usr/share/idea-IU-141.178.9/bin/idea.sh &'
+alias ij='nohup /usr/share/idea-IU-141.713.2/bin/idea.sh &'
 alias ij141='nohup /usr/share/idea-IU-141.177.4/bin/idea.sh &'
 alias ij140='nohup /usr/share/idea-IU-139.659.2/bin/idea.sh &'
 alias ij13='nohup /usr/share/idea-IU-135.909/bin/idea.sh &'
