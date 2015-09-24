@@ -9,8 +9,9 @@ alias jmon='cd ~/dev/JMonitaur'
 alias up='cd ~/dev/update-projects;./update.sh'
 alias j7='JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64;export PATH=$JAVA_HOME/bin:$PATH'
 
-alias ij='nohup /usr/share/idea-IU-141.1532.4/bin/idea.sh &'
-alias ij143='nohup /usr/share/idea-IU-141.1010.3/bin/idea.sh &'
+alias ij='nohup /usr/share/idea-IU-141.2735.5/bin/idea.sh &'
+alias ij1414='nohup /usr/share/idea-IU-141.1532.4/bin/idea.sh &'
+alias dbvis='cd /media/tim/CA403684403676F3/ms-installs/DbVisualizer;java -XX:CompileCommand=exclude,javax/swing/text/GlyphView,getBreakSpot -Xmx512M -XX:MaxPermSize=192m -Dsun.locale.formatasdefault=true -splash:"./resources/images/splash-animated.gif" -Ddbvis.home=. -cp ./resources:./lib/* com.onseven.dbvis.DbVisualizerGUI'
 
 alias sgb='cd ~/dev/SG/SG-git/build'
 alias astart='sudo ~/dev/SG/apache2/bin/apachectl start'
