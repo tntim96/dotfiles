@@ -20,6 +20,7 @@ alias astop='sudo ~/dev/SG/apache2/bin/apachectl stop'
 alias bloff='echo 0 | sudo tee /sys/devices/platform/sony-laptop/kbd_backlight'
 alias blon='echo 1 | sudo tee /sys/devices/platform/sony-laptop/kbd_backlight'
 alias vboxdrv='sudo modprobe vboxdrv'
+alias rboxdrv='sudo /sbin/rcvboxdrv setup'
 
 alias antlr4='java -jar /usr/lib/antlr-4.5-complete.jar'
 alias grun='java org.antlr.v4.runtime.misc.TestRig'
