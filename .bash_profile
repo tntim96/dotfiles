@@ -1,9 +1,5 @@
-export PATH=$PATH:~/dev/scala-2.11.2/bin
-
 JAVA_HOME=~/dev/jdk1.8.0_112
 export PATH=$JAVA_HOME/bin:$PATH
-
-export CLASSPATH=".:/usr/lib/antlr-4.5-complete.jar:$CLASSPATH"
 
 #export M2_HOME=~/dev/apache-maven-3.2.5
 export M2_HOME=~/dev/apache-maven-3.5.0
