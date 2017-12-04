@@ -1,4 +1,4 @@
-JAVA_HOME=~/dev/jdk1.8.0_112
+JAVA_HOME=~/dev/jdk1.8.0_151
 export PATH=$JAVA_HOME/bin:$PATH
 
 #export M2_HOME=~/dev/apache-maven-3.2.5
