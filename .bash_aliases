@@ -16,8 +16,8 @@ alias dbvis='cd /media/tim/CA403684403676F3/ms-installs/DbVisualizer;java -XX:Co
 
 alias sgb='cd ~/dev/SG/SG-git/build'
 alias astart='sudo ~/dev/SG/apache2/bin/apachectl start'
-alias astop='sudo ~/dev/SG/apache2/bin/apachectl stop'
-alias sgstart='sudo ~/dev/SG/apache2/bin/apachectl start;~/dev/SG/solr-5.4.1/bin/solr start;nohup java -jar fakeSMTP-2.0.jar &'
+alias astop='sudo nginx -s stop'
+alias sgstart='sudo nginx;~/dev/SG/solr-5.4.1/bin/solr start;nohup java -jar fakeSMTP-2.0.jar &'
 alias sgstop='sudo ~/dev/SG/apache2/bin/apachectl stop;~/dev/SG/solr-5.4.1/bin/solr stop'
 alias bloff='echo 0 | sudo tee /sys/devices/platform/sony-laptop/kbd_backlight'
 alias blon='echo 1 | sudo tee /sys/devices/platform/sony-laptop/kbd_backlight'
