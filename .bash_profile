@@ -1,4 +1,3 @@
-export PATH=/home/tim/Android/Sdk/platform-tools:$PATH
 export PATH="./node_modules/.bin:$PATH"
 
 export MAVEN_OPTS="-Xss4m -Xms256m -Xmx1024m"
