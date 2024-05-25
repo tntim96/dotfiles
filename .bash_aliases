@@ -5,7 +5,7 @@ alias jscs='cd ~/dev/JSCover-samples'
 
 alias sgb='cd ~/dev/SG/SG-git/build'
 alias sgstart='~/dev/SG/solr-8.11.3/bin/solr start;nohup java -Xmx64m -jar fakeSMTP-2.0.jar &'
-alias sgstop='~/dev/SG/solr-7.7.3/bin/solr stop'
+alias sgstop='~/dev/SG/solr-8.11.3/bin/solr stop'
 #alias bloff='echo 0 | sudo tee /sys/devices/platform/sony-laptop/kbd_backlight'
 #alias blon='echo 1 | sudo tee /sys/devices/platform/sony-laptop/kbd_backlight'
 #alias vboxdrv='sudo modprobe vboxdrv'
