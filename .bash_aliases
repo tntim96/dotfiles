@@ -4,7 +4,7 @@ alias jscmp='cd ~/dev/JSCover-maven-plugin'
 alias jscs='cd ~/dev/JSCover-samples'
 
 alias sgb='cd ~/dev/SG/SG-git/build'
-alias sgstart='~/dev/SG/solr-9.9.0/bin/solr start;nohup java -Xmx64m -jar fakeSMTP-2.1.1.jar &'
+alias sgstart='~/dev/SG/solr-9.9.0/bin/solr start;nohup java -Xmx64m -jar fakeSMTP-2.1.1.jar -p 2500 -s &'
 alias sgstop='~/dev/SG/solr-9.9.0/bin/solr stop'
 alias s8start='~/dev/SG/solr-8.11.3/bin/solr start -p 8984'
 alias s8stop='~/dev/SG/solr-8.11.3/bin/solr stop'
